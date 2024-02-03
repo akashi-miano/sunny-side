@@ -1,6 +1,6 @@
 const Transform = () => {
   return (
-    <section className="">
+    <section className="" id="about">
       <div className="grid md:grid-cols-2">
         <div className="text-section flow-content--m flex flex-col justify-center max-w-[500px] mx-auto p-6">
           <header>

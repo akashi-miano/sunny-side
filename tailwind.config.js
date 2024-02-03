@@ -14,6 +14,17 @@ export default {
         cherryMobileBg: "url('./assets/mobile/image-graphic-design.jpg')",
         orangeDesktopBg: "url('./assets/desktop/image-photography.jpg')",
         orangeMobileBg: "url('./assets/mobile/image-photography.jpg')",
+        coneDesktopBg: "url('./assets/desktop/image-gallery-cone.jpg')",
+        coneMobileBg: "url('./assets/mobile/image-gallery-cone.jpg')",
+        bottleDesktopBg:
+          "url('./assets/desktop/image-gallery-milkbottles.jpg')",
+        bottleMobileBg: "url('./assets/mobile/image-gallery-milkbottles.jpg')",
+        orangeGalleryDesktopBg:
+          "url('./assets/desktop/image-gallery-orange.jpg')",
+        orangeGalleryMobileBg:
+          "url('./assets/mobile/image-gallery-orange.jpg')",
+        cubeDesktopBg: "url('./assets/desktop/image-gallery-sugarcubes.jpg')",
+        cubeMobileBg: "url('./assets/mobile/image-gallery-sugarcubes.jpg')",
       },
     },
   },

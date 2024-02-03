@@ -6,6 +6,10 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+} 
+
+html{
+  @apply scroll-smooth;
 }
 
 ul {
@@ -89,4 +93,14 @@ content: '';
 
 .learn-more-2:hover::after{
   opacity: 1;
+}
+
+footer .logo {
+filter:   invert(45%) sepia(22%) saturate(790%) hue-rotate(118deg) brightness(95%) contrast(92%);
+}
+
+@media screen and (max-width: 34.375em) {
+  html{
+    font-size: 75%;
+  }
 }

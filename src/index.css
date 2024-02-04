@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -23,6 +24,16 @@ a {
 
 body {
 	line-height: 1.6;
+      font-family: 'Barlow', sans-serif;
+      overflow-x: hidden;
+}
+
+h1,h2,h3, .learn-more, .learn-more-2, .author{
+          font-family: 'Fraunces', serif;
+}
+
+.author{
+  @apply font-extrabold text-xl;
 }
 
 

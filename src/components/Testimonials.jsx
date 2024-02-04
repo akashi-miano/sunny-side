@@ -24,7 +24,7 @@ const Testimonials = () => {
               />
               <p className="text-lg font-bold ">{text}</p>
               <div className="flex flex-col items-center gap-4 mt-8">
-                <span className="text-lg font-bold text-[#23303e]">
+                <span className="font-bold text-[#23303e] author">
                   {person}
                 </span>
                 <span className="text-[#a7abae] text-md font-bold">

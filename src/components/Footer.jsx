@@ -5,7 +5,11 @@ import { FaPinterest } from "react-icons/fa";
 import logo from "../assets/logo.svg";
 const Footer = () => {
   return (
-    <footer className="bg-[#8ed0c4] py-16">
+    <footer
+      className="bg-[#8ed0c4] py-16"
+      data-aos="zoom-in"
+      data-aos-delay="400"
+    >
       <div className="container flex flex-col items-center justify-center">
         <header className="mb-10">
           <img src={logo} alt="Logo image" className="logo w-[170px]" />

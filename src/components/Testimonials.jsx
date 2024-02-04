@@ -3,17 +3,19 @@ const Testimonials = () => {
   return (
     <section className="py-16">
       <div className="container">
-        <header className="mb-6">
+        <header className="mb-6" data-aos="zoom-in" data-aos-delay="200">
           <h2 className="#a7abae text-center text-3xl text-[#a7abae] font-bold tracking-widest capitalize">
             {" "}
             Client testimonials{" "}
           </h2>
         </header>
         <div className="grid md:grid-cols-3 cards-wrapper">
-          {card.map(({ id, imgURL, text, person, position }) => (
+          {card.map(({ id, imgURL, text, person, position, delay }) => (
             <div
               className="flex flex-col items-center justify-center p-4 text-center card text-[#818498]"
               key={id}
+              data-aos="zoom-in"
+              data-aos-delay={delay}
             >
               <img
                 src={imgURL}

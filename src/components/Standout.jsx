@@ -2,8 +2,16 @@ const Standout = () => {
   return (
     <section>
       <div className="grid md:grid-cols-2">
-        <div className="img-bg bg-standOutDesktopBg bg-center bg-cover bg-no-repeat min-h-[35vh] md:min-h-[85vh] order-[-1] md:order-[0]"></div>
-        <div className="text-section flow-content--m flex flex-col justify-center max-w-[500px] mx-auto p-6">
+        <div
+          className="img-bg bg-standOutDesktopBg bg-center bg-cover bg-no-repeat min-h-[35vh] md:min-h-[85vh] order-[-1] md:order-[0]"
+          data-aos="fade-right"
+          data-aos-delay="200"
+        ></div>
+        <div
+          className="text-section flow-content--m flex flex-col justify-center max-w-[500px] mx-auto p-6"
+          data-aos="fade-left"
+          data-aos-delay="400"
+        >
           <header>
             <h2 className="text-5xl font-bold text-[#212529]">
               Stand out to the right audience
